@@ -1,0 +1,40 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    text-align: center;
+}
+table {
+    margin: 0 auto;
+}
+input[type="button"] {
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    margin-top: 10px;
+    background-color: #dcdcdc;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+    padding-bottom: 1px;
+}
+input[type="text"] {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+    text-align: right;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+input [value="C"],input[value="+"],input[value="/"],input[value="*"],input[value="-"]{
+    background-color: orange;
+}
+
+#resultado {
+    border-radius: 50px;
+}
+
+
